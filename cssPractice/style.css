@@ -1,0 +1,34 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 98vh;
+}
+
+.divContainer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.one,
+.two,
+.three {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one,
+.three {
+    height: 05%;
+}
+
+.two {
+    height: 90%;
+}
