@@ -1,5 +1,10 @@
-function squared(num) {
-    return num * num
+function add7(num1) {
+    return num1 + 7;
 }
 
-console.log(squared(1))
+function multiply(num1, num2) {
+    return num1 * num2;
+}
+
+function capitalize(string) {
+}
